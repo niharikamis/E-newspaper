@@ -1,3 +1,3 @@
 # E-newspaper
-Used python, HTML, CSS, JavaScript, php
-Open myhome.html to begin
+Used python, HTML, CSS, JavaScript, php</br>
+*Open myhome.html to begin*
