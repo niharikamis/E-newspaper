@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>TRAVEL</title>
+<link rel="stylesheet" href="CSS.css" type="text/css">
+<link rel="stylesheet" href="travel.css" type="text/css">
+
+
+</head>
+<body>
+
+<a href="myhome.html"><div id="a1" class="tab">HOME</div></a>
+<a href="stocks.html"><div id="a2" class="tab">STOCK MARKET</div></a>
+<a href="sports.html"><div id="a3" class="tab">SPORTS</div></a>
+<a href="world.html"><div id="a4" class="tab">WORLD</div></a>
+<a href="tech.html"><div id="a5" class="tab">TECHNOLOGY</div></a>
+<a href="sign.html"><div id="a8" class="tab">SWITCH USER</div></a>
+<a href="travel.html"><div id="a7" class="tab">TRAVEL</div></a>
+<a href="entertainment.html"><div id="a6" class="tab">ENTERTAINMENT</div></a>
+
+
+<span class="where">Where to now..</span>
+
+<a href="#prague"><div id="d0" class="pic"><p>PRAGUE</p></div></a>
+<a href="#edinburgh"><div id="d1" class="pic"><p>EDINBURGH</p></div></a>
+<a href="#frankfurt"><div id="d2" class="pic"><p>FRANKFURT</p></div></a>
+<a href="#florida"><div id="d3" class="pic"><p>EVERGLADES</p></div></a>
+
+<span id="des" class='umm'>The best places to visit this season</span>
+
+
+<div id="prague" class="big">
+	<span class="header" id="prh" >PRAGUE</span>
+	<div class="image" id="pri"></div>
+	<div class="about" id="pra">One of Europe’s best-preserved cities, Prague has a romantic riverside location enhanced by graceful bridges 
+	and a magnificent skyline punctuated with medieval church spires. Its historic Old Town follows a plan laid out 1,000 years ago, 
+	with ancient squares and winding cobblestone streets. Haunting Prague Castle looms large across the Vltava River, rising above the 
+	exquisite Charles Bridge. Add extravagant, fairy-tale architecture;memorable classical music; and, these days, good food and drink, 
+	and it’s easy to see why Prague charms everyone who visits.<br></div>
+</div>	
+
+<div id="edinburgh" class="big">
+	<span class="header" id="edh">EDINBURGH</span>
+	<div class="image" id="edi"></div>
+	<div class="about" id="eda">Edinburgh is one of Europe’s most beautiful cities, draped across a series of rocky hills overlooking the sea. 
+	It’s a town intimately entwined with its landscape, with buildings and monuments perched atop crags and overshadowed by cliffs – in the words 
+	of Robert Louis Stevenson, ‘a dream in masonry and living rock’. From the Old Town’s picturesque jumble of medieval tenements piled high along 
+	the Royal Mile, its turreted skyline strung between the black, bull-nosed Castle Rock and the russet palisade of Salisbury Crags, to the
+	New Town’s neat grid of neoclassical respectability, the city offers a constantly changing perspective.
+
+</div>
+</div>
+
+<div id="frankfurt" class="big">
+	<span class="header" id="frh">FRANKFURT</span>
+	<div class="image" id="fri"></div>
+	<div class="about" id="fra">Glinting with glass, steel and concrete skyscrapers, Frankfurt-on-the-Main (pronounced ‘mine’) is unlike any other
+	German city. The focal point of a conurbation of 5.5 million inhabitants, ‘Mainhattan’ is a high-powered finance and business hub, home to one 
+	of the world’s largest stock exchanges as well as the gleaming new headquarters of the European Central Bank. Frankfurt famously hosts some of 
+	the world's most important trade fairs, attracting thousands of business travellers. Its airport, the region’s biggest employer, is the 
+	third-largest in Europe, handling over 57 million passengers per year.<br>
+Yet at its heart, Frankfurt is an unexpectedly traditional and charming city, with half-timbered buildings huddled in its quaint medieval 
+Altstadt (old city), cosy apple wine taverns serving hearty regional food, village-like neighbourhoods filled with outdoor cafes, boutiques 
+and street art, and beautiful parks, gardens and riverside paths. The city's cache of museums is second in Germany only to Berlin’s, and its
+ nightlife and entertainment scenes are bolstered by a spirited student population.
+
+
+</div>
+</div>
+
+<div id="florida" class="big">
+	<span class="header" id="evh">EVERGLADES</span>
+	<div class="image" id="evi"></div>
+	<div class="about" id="eva">There is no wilderness in America quite like the Everglades. Called the ‘River of Grass’ by its initial Native 
+	American inhabitants, this is not just a wetland, or a swamp, or a lake, or a river, or a prairie, or a grassland – it is all of the above,
+	twisted together into a series of soft horizons, long vistas, sunsets that stretch across your entire field of vision and the creeping grin 
+	of a large population of dinosaur-era reptiles.<br>
+When you watch anhinga flexing their wings before breaking into a corkscrew dive, or the slow, Jurassic flap of a great blue heron gliding over 
+its domain, or the sun kissing miles of unbroken saw grass as it sets behind humps of skeletal cypress domes, you’ll have an idea of what we’re 
+speaking of. In a nation where natural beauty is measured by its capacity for drama, the Everglades subtly, contentedly flows on.
+
+</div>
+</div>
+<script type="text/javascript">
+	var a= new Array();
+	a=["prague","edinburgh","frankfurt","florida"];
+	
+	var i=1;
+	function rotate(){
+		var k=0;
+		while (k<4)
+		{
+			var id="d" + k;
+			var b =document.getElementById(id);
+			var s=a[k] + i + '.jpg';
+			b.style.backgroundImage="url("+s+")";
+			k++;
+		}
+		i++;
+		if(i==5){i=1;}
+	}
+
+var c=setInterval(rotate,3000);
+
+</script>
+<br>
+<br>
+<span id="tell" class="umm">Check out these places..</span>
+
+<script>
+
+function myMap() {
+	
+
+  var mapCanvas = document.getElementById("map");
+   var myCenter = new google.maps.LatLng(50.0755, -50);
+   var Prague = new google.maps.LatLng(50.0755, 14.4378);
+   var Edinburgh = new google.maps.LatLng(55.9533, -3.1883);
+   var Frankfurt = new google.maps.LatLng(50.1109, 8.6821);
+   var Everglades = new google.maps.LatLng(25.2866, -80.8987);
+  
+  var mapOptions = {
+    center: myCenter,
+    zoom: 3,
+	mapTypeId: google.maps.MapTypeId.HYBRID
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+   var marker1 = new google.maps.Marker({
+    position: Prague,
+    animation: google.maps.Animation.BOUNCE
+  });
+  var marker2 = new google.maps.Marker({
+    position: Edinburgh ,
+    animation: google.maps.Animation.BOUNCE
+  });
+  var marker3 = new google.maps.Marker({
+    position: Frankfurt,
+    animation: google.maps.Animation.BOUNCE
+  });
+  var marker4 = new google.maps.Marker({
+    position: Everglades,
+    animation: google.maps.Animation.BOUNCE
+  });
+  marker1.setMap(map);
+  marker2.setMap(map);
+  marker3.setMap(map);
+  marker4.setMap(map);
+}
+
+
+
+
+</script>
+
+<div id="outer" >
+<div id="map" style="width:100%;height:600px"></div>
+
+
+</div>	
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcSH0Y6RBAicx-pB1Z0iHhJGleWkVYbqs&callback=myMap"></script>
+	
+	
+<hr width="90%" align="center">
+
+</body>
+</html>
