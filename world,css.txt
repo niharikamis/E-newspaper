@@ -1,0 +1,115 @@
+* {font-family:Century Gothic;
+			font-size:20px;
+			text-decoration:none;
+			}
+			
+		a { color:white;}
+		.tab {
+				border-top: 2px black solid;
+				background-color:gray;
+				position:absolute;
+				top:5%;
+				width:11.25%;
+				font-size:20px;
+				color:white;
+				text-align:center;
+				vertical-align: center;
+				height:25px;
+				font-family:AR BONNIE;
+				z-index:1;
+				}
+		.tab:hover {
+					border-top: 2px gray solid;
+					background-color:white;
+					color:gray;}
+					
+		#a1 {
+				left:5%;}
+		
+		#a2 {
+				left:16.25%}
+		#a3 {
+				left:27.5%;}
+		#a4 {
+				background-color:white;
+				color:gray;
+				
+				left:38.75%;}
+		#a5 {
+				left:50%;}
+		#a6 {
+				left:61.25%;}
+		#a7 {
+				left:72.5%;}
+		#a8 {
+				left:83.75%;}
+				
+		#side {
+				background-color:gray;
+				opacity:0.7;
+				height:100%;
+				width:20%;
+				position:fixed;
+				left:5.5%;
+				top:0%;
+				z-index:0;
+				}
+		#onside {
+				color:white;
+				height:73%;
+				width:19%;
+				position:fixed;
+				left:6%;
+				top:19%;
+				font-size:25px;}
+				
+		#world {
+				position:absolute;
+				left:26%;
+				top:21.5%;
+				width:69%;
+				}
+		.cont {
+				color:white;
+				font-family:AR BONNIE;
+				font-size:50px;
+				width:68%;
+				position: absolute;
+				left:26%;
+				background-color:gray;
+				padding-left:20px;
+				
+				}
+		#asia {
+				top:88.5%;
+				}
+		#europe {
+				top:347%;}
+		#na {top:633%;}
+		
+		.article {
+				position:absolute;
+				left:30%;
+				top:94%;
+				width:60%;
+				border-top:2px gray solid;
+				border-bottom:2px gray solid;
+				padding-top:4px;
+				padding-bottom:4px;}
+		#a {top:97%;}
+		#b {top:215%;
+			}
+		#c {top:357%;
+			}
+		#d {top:472%;
+			}
+		#e {top:642%;
+			}
+		#f {top:
+			}
+		#g {top:
+			}
+		#h {top:
+			}
+		.art {
+				width:65%;}
