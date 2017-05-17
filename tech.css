@@ -1,0 +1,160 @@
+body {
+		background-image:url("grid1.jpg");]
+		}
+.parallax { 
+    z-index:-1
+    background-image: url("grid1.jpg");
+	height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	}
+
+*{font-family:AR BONNIE;}
+
+#bg {	
+		width:100%;
+		height:100%;
+		background-color:rgba(0,0,0,0.8);
+		position:fixed;
+		z-index:-1;}
+
+#a1 {
+	background-color:transparent;
+	color:white;
+	}
+	
+#a2 {
+	background-color:transparent;
+	color:white;
+	}
+#a3 {
+	background-color:transparent;
+	color:white;
+	}
+#a4 {
+	background-color:transparent;
+	color:white;
+	}
+#a5 {
+	background-color:transparent;
+	color:white;
+	}
+#a6 {
+	background-color:transparent;
+	color:white;
+	}
+#a7 {
+	background-color:transparent;
+	color:white;
+	}
+#a8 {
+	background-color:transparent;
+	color:white;
+	}
+.tab {	top:1%;
+		color:white
+		background-color:transparent;
+		font-family:AR BONNIE;
+		font-size:25px;
+		border-top:none;
+		}
+.tab:hover {
+			color:white;
+			border-top:none;
+			border-bottom:1px solid white;}
+		
+#up {
+		font-family:Courier new;
+		font-size:43px;
+		text-align:center;
+		position:absolute;
+		top:3%;
+		 
+
+		text-shadow: 0 1px 8px #FF0000,1px 0px 20px yellow;
+  
+		width:88%;
+		left:6.6%;
+		color:#cfcfd0;}
+		
+.slides {
+		position:absolute;
+		top:29%;
+		left:20%;
+		width:60%;
+		height:82%;
+		border:1px solid white;
+		}
+img {
+	height:600px;
+	width:600px;}
+.myslides {width:100%%;
+		height:100%;
+			}
+
+.caption {
+			font-family:courier new;
+			font-size:30px;
+			color:white;
+			background-color:rgba(0,0,0,0.4);
+			position:absolute;
+			text-align:center;
+			bottom:10%;
+			font-style:bold;}
+			
+.tit {
+		text-align:center;
+		font-size:40px;
+		font-family:courier new;
+		text-shadow: 1px 0px 20px #2551f8;
+		color:#cfcfd0;}
+			
+.article {
+		left:5%;
+		width:87%;
+		border:1px solid white;
+		padding:20px;
+		font-family:courier new;
+		font-size:25px;
+		color:white;
+		position:absolute;	
+			}
+#art1 {
+		top:130%;
+		}
+
+#art2 {
+		top:220%;
+		}
+		
+#art3 {
+		top:296%;
+		}
+		
+#art4 {
+		top:370%;
+		}
+		
+#art5 {
+		top:500%;
+		}
+			
+#vid {
+		align:center;
+		position:relative;
+		bottom;3%;
+		left:30%;}		
+.buttons {
+			background-color:rgba(0,0,0,0.8);
+			position:absolute;
+			border:0.3px solid black;
+			width:20px;
+			top:50%;
+			color:white;
+			text-align:center;
+			}		
+#left{left:30px;}
+#right{right:30px;}

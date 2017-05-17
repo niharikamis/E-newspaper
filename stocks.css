@@ -1,0 +1,223 @@
+	
+	
+	* {font-family:Century Gothic;
+			font-size:16px;
+			text-decoration:none;
+			}
+		.tab {
+				border-top: 2px black solid;
+				background-color:gray;
+				position:absolute;
+				top:5%;
+				width:11.25%;
+				font-size:30px;
+				color:white;
+				text-align:center;
+				vertical-align: center;
+				height:40px;
+				font-family:AR BONNIE;
+				z-index:1;
+				}
+		.tab:hover {
+					border-top: 2px gray solid;
+					background-color:white;
+					color:gray;}
+					
+		#a1 {
+				left:5%;}
+		
+		#a2 {
+				background-color:white;
+				color:gray;
+				left:16.25%}
+		#a3 {
+				left:27.5%;}
+		#a4 {
+				left:38.75%;}
+		#a5 {
+				left:50%;}
+		#a6 {
+				left:61.25%;}
+		#a7 {
+				left:72.5%;}
+		#a8 {
+				left:83.75%;}
+				
+		#m1 {
+				background-color:transparent;
+				width:90%;
+				color:gray;
+				font-size:40px;
+				font-family:AR BONNIE;
+				position:absolute;
+				top:15%;
+				left:5%;
+				word-spacing:7px;}
+		#a2 {
+				background-color:gray;
+				color:white;}
+				a {color: #1155CC;
+					}
+			.tab {
+					background-color:transparent;
+					
+					border-top-color:gray;
+					color:gray;}
+			.tab:hover {
+						background-color:gray;
+					
+					border-top-color:gray;
+					color:white;
+						}
+						
+	
+			.scroll-up {
+				height: 30px;	
+				overflow: hidden;
+				position: absolute;
+				top:30%;
+				left:73%;
+				width:24%;
+				height:60%;
+				background: transparent;
+				letter-spacing:2px;
+				font-family:Book Antiqua;
+				
+			}
+			#scroll {
+				position: relative;
+				width: 100%;
+				height: 50%;
+				height: 100%;
+				margin: 0;
+				line-height: 50px;
+				text-align: center;
+				font-size:32px;
+			 /* Starting position */
+				
+				transform:translateY(100%);
+			 /* Apply animation to this element */	
+
+				animation: scroll-up 20s linear infinite;
+			}
+			/* Move it (define the animation) */
+			
+			@keyframes scroll-up {
+			 0%   { 
+			
+			 transform: translateY(100%); 		
+			 }
+			 100% { 
+			 
+			 transform: translateY(-100%); 
+			 }
+			}
+			
+	#gold {color:#ffd700;}
+	#silver {color:#C0C0C0;}
+	#copper {color:#A23D22;}
+	#platinum {color:#dfdfdf;}
+	#crude {color:#000000;}
+	#gas {color:#521515;
+			font-size:40px;}
+	.txt{
+			font-size:50px;}
+	.stock {
+			color:gray;
+			font-size:30px;
+			font-family:AR BONNIE;
+			position:absolute;
+			height:9%;
+			width:15%;
+			top:15%;
+			text-align:center;
+			border-top:2px dashed gray;
+			border-right:1px solid gray;
+			}
+	#s1 {
+		left:5%;}
+	#s2 {
+		left:20%;}
+	#s3 {
+		left:35%;}
+	#s4 {
+		left:50%;}
+	#s5 {
+		left:65%;}
+	#s6 {
+		left:80%;
+		border-right:transparent;}
+	.price {
+			font-size:50px;
+			text-align:center;
+			color:gray;
+			}
+	.name {
+			color:white;
+			background-color:black;
+			position:relative;
+			}
+			
+	.news {
+			border-left:20px solid #326B9F;
+			width:65%;
+			position:absolute;
+			left:5%;
+			border-right:2px solid #326B9F;
+			height:5%;
+			font-size:16px;
+			padding:4px;
+			padding-left:10px;
+			border-bottom:1px dotted gray;
+			letter-spacing:2px;
+			}
+			
+	#n1 {
+			border-top:1px dotted gray;
+			top:30%;
+	}
+	#n2 {
+			top:36%;
+	}
+	#n3 {
+			top:42%;
+	}
+	#n4 {
+			top:48%;
+	}
+	#n5 {
+			top:54%;
+	}
+	#n6 {
+			top:60%;
+	}
+	#n7 {
+			top:66%;
+	}
+	#n8 {
+			top:72%;
+	}
+	#n9 {
+			top:78%;
+	}
+	#n10 {
+			top:84%;
+	}
+	
+	marquee {
+			position:absolute;
+			top:93%;
+			left:5%;
+			width:90%;
+			font-size:30px;
+			color:red;
+			border-top:3px solid red;
+			
+	}
+			
+			
+
+
+			
+
+				
