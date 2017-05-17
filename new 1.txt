@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            *{font-family:helvetica;}
+            body {background-color:#09a;}
+            #frm {padding: 50px;margin:20 auto; width:80%;background-color:white;}
+            .but {border:1px solid black; border-radius:2px;padding:10px;display:inline;}
+            .comm{position:relative;left:50px;font-size:15px;}
+            #secondary{display:none;}
+            #newNode{font-size:20px;}
+        </style>
+        
+        <title>Facebook</title>
+    </head>
+    <body>
+        <div id = "frm">
+            <form id = "statusForm">
+                <input type = "textarea" id = "st"><br><br>
+                <div class = "but" id = "ud" style>Update Status</div>
+            </form>
+            <form id = "secondary">
+                <input type = "textarea" id = "tex"><br><br>
+                <p id = "likes">0</p>
+                <div class = "but" id = "like">Like</div>
+                <div class = "but" id = "comment">Comment</div>
+                <div  class = "but" id = "delete">Delete</div>
+                
+            </form>
+        </div>
+        <script>
+        
+            var upd = document.getElementById("ud");
+            var liker = document.getElementById("like");
+            var commer = document.getElementById("comment");
+            var deler = document.getElementById("delete");
+            
+            function statusUpdate(){
+                var dv = document.getElementById("frm");
+                var nw = document.createElement("p");
+                var nd = document.createTextNode(document.getElementById("st").value);
+                nw.appendChild(nd);
+                nw.id = "newNode";
+                dv.insertBefore(nw,document.getElementById("secondary"));
+                document.getElementById("secondary").style.display = "block";
+            }
+            upd.addEventListener("click",statusUpdate);
+            
+            function like(){
+                var likes = document.getElementById("likes");
+                likes.innerHTML = (parseInt(likes.innerHTML) + 1);
+            }
+            liker.addEventListener("click",like);
+            
+            function comment(){
+                var newN = document.createElement("p");
+                var nd = document.createTextNode(document.getElementById("tex").value);
+                newN.appendChild(nd);
+                newN.setAttribute("class", "comm");
+                var par = document.getElementById("newNode");
+                par.appendChild(newN);
+            }
+            commer.addEventListener("click",comment);
+            
+            function del(){
+                var par = document.getElementById("newNode");
+                par.removeChild(par.lastChild);
+            }
+            deler.addEventListener("click",del);
+            
+        </script>
+        
+    </body>
+
+</html>
