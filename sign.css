@@ -1,0 +1,51 @@
+body {
+    background-image: url('sign_bg1.jpg');
+	background-image:no-repeat;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    padding-top: 20px;
+}
+ 
+.container {
+		width:406px;
+		max-width:406px;
+		margin: 0 auto;
+		background-color:rgba(0,0,0,0.65);
+		color:white;
+		padding:25px;
+		position:absolute;
+		top:2%;
+		left:35%;
+}
+
+.header {
+		border-bottom:1px solid white;
+		}
+.inputs {
+
+		padding-top:20px;}
+ 
+input[type=submit] {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+	
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:rgba(0,0,0,0.75);
+	color:white;
+}
+input[type=text], [type=password], [type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
