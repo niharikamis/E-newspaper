@@ -1,0 +1,204 @@
+
+
+
+
+div.color {
+			background-color:gray;
+			opacity:0.9;
+			height:100px;
+			width:170px;
+			position:fixed;
+			border:2px black;
+			margin-bottom:30px;
+			font-size:25px;
+			padding:20px;
+			}
+			
+#a1 {
+	 top:20%; 
+	 left:0px;
+	 transition-timing function:ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:blue;
+  transition:width 4s;
+	 }
+	 #a1:hover{width: 250px;
+	            color:red;
+				}
+			
+#a2 {
+	 top:35%;
+	left:0px;transition-timing function:ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:gray;
+  transition:width 4s;
+	 }
+	 #a2:hover{width: 250px;
+	             color:red;}
+	 
+#a3 {
+	top:50%;
+	left:0px;
+	transition-timing function:ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:blue;
+  transition:width 4s;}
+  
+  #a3:hover{width: 250px;
+           color:red;}
+#a4 {
+	 top:65%;
+	 left:0px;
+	 transition-timing function:;ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:gray;
+  transition:width 4s;
+	 }
+	 #a4:hover{width: 250px;
+	 color:red}
+	 
+#a5 {
+	top:80%;
+	left:0px;transition-timing function:ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:blue;
+  transition:width 4s;
+	 }
+	 #a5:hover{width: 250px;
+	 color:red}
+	
+#b1 {
+	 top:20%;
+	 right:0px;	 transition-timing function:ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:gray;
+  transition:width 4s;
+	 }
+	 #b1:hover{width: 250px;
+	 color:red;}
+	 
+#b2 {
+	top:35%;
+	right:0px;transition-timing function:ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:blue;
+  transition:width 4s;
+	 }
+	 #b2:hover{width: 250px;
+	             color:red;}
+
+#b3 {
+	 top:50%;
+		right:0px;transition-timing function:ease-in;
+ 
+   width:100px;
+   height:50px;
+  background:gray;
+  transition:width 4s;
+	 }
+	 #b3:hover{width: 300px;
+	 color:red}
+	 
+#b4 {
+	top:65%;
+	right:0px;width:100px;
+   height:50px;
+  background:blue;
+  transition:width 4s;
+	 }
+	 #b4:hover{width: 250px;
+	 color:red}
+	
+#b5 {
+	 top:80%;
+		right:0px;width:100px;
+   height:50px;
+  background:gray;
+  transition:width 4s;
+	 }
+	 #b5:hover{width: 250px;
+	 color:red}
+		
+		
+		
+#c1 {
+	position:absolute;
+	background-color:maroon;
+	font-size:100px;
+	top:10%;
+	left:37%;
+	height:250;
+	opacity:0.7;
+	width:500;
+	}
+	
+#c2 {
+	position:absolute;
+	top:20%;
+	left:23.4%;
+	height:350;
+	width:250;
+	opacity:0.7;
+	font-size:40px;
+	background-color:teal;
+	background-image:url("obama.jpg");
+	}
+	
+#c3 {
+	position:absolute;
+	top:20%;
+	left:63.4%;
+	height:200px;
+	width:200px;
+	opacity:0.8;
+	background-color:green;
+	}
+
+#c4 {
+	position:absolute;
+	top:60%;
+	left:28%;
+	}
+
+
+#c5 {
+	position:absolute;
+	top:80%;
+	left:30%;
+	}
+#c6 {
+	position:absolute;
+	height:100px;
+	weight:100px;
+	top:100%;
+	left:30%;
+	}
+
+img.size {
+		height:100px;
+		width:100px;
+}
+
+body {
+		background-image:url("background.jpg");
+		background-repeat:none;
+		
+}
+
+
+
+	 

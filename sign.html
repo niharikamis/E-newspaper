@@ -1,0 +1,83 @@
+<html>
+<style>
+
+
+</style>
+<link rel="stylesheet" href="sign.css" type="text/css">
+
+</head>
+
+<body>		
+<div class="container" id="s">
+ 
+    <form id="signup" action="sign.php" method="POST">
+ 
+        <div class="header">
+			<br>
+            <h2 align="center">Sign Up</h2>
+ 
+   
+ 
+        </div>
+ 
+        <div class="sep"></div>
+ 
+        <div class="inputs">
+		   <input type="text" placeholder="First Name" name="fname" autofocus />
+ 
+		   <input type="text" placeholder="Last Name" name="lname"autofocus/>
+ 
+            <input type="text" placeholder="DOB YYYY/DD/MM" name="dob" autofocus />
+ 
+            <input type="text" placeholder="Contact" name="phone"autofocus />	
+ 
+		   <input type="text" placeholder="City" name="city" autofocus />
+ 
+            <input type="email" placeholder="e-mail" name="username"autofocus />
+ 
+            <input type="password" placeholder="Password" name="password" id="p1" />
+ 
+			<input type="password" placeholder="Confirm Password" name="cpassword" id="p2" autofocus onblur="check()" />
+ 
+ 
+ 
+ 
+ 
+            <div class="checkboxy">
+                <input name="cecky" id="checky" value="1" type="checkbox" /><label class="terms">I accept the terms of use</label>
+            </div>
+ 
+            
+			<input type="submit" name="submit"  id="submit" value="sign up">
+ 
+        </div>
+ 
+    </form>
+ 
+</div>
+
+<script>
+	function check()
+	{
+		var x=document.getElementById("p1");
+		var y=document.getElementById("p2");
+		if(x!=y){
+			window.alert("passwords dont match");
+		}
+
+	}
+</script>
+</body>
+</html>
+<?php
+	define('DB_HOST', 'localhost');
+	define('DB_NAME', 'userdetails');	
+	define('DB_USER','root');
+	define('DB_PASSWORD','');
+	
+	$con=mysql_connect(DB_HOST,DB_USER,DB_PASSWORD) or die("Failed to connect to MySQL: " . mysql_error()); 
+	$db=mysql_select_db(DB_NAME,$con) or die("Failed to connect to MySQL: " . mysql_error()); 
+	if (mysqli_connect_errno($con)) { echo "Failed to connect to MySQL: " . mysqli_connect_error(); } 
+	else { echo “Successfully connected to your database…”; } 
+
+?> 

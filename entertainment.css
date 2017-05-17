@@ -1,0 +1,420 @@
+
+.parallax {
+		//background-image: url("bokeh2.jpg");
+		height:130%; 
+		background-color:white;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		
+		}
+
+#a6 {
+	background-color:gray;
+	color:white;}
+	a {color: #1155CC;
+		}
+.tab {
+		top:3%;
+		background-color:transparent;
+		font-size:25px;
+		border-top-color:gray;
+		color:gray;}
+.tab:hover {
+			background-color:gray;
+		font-size:25px;
+		border-top-color:gray;
+		color:white;
+			}
+
+	
+	
+
+	
+	.box {
+			height:20%;
+			width:7%;
+			position:absolute;
+			top:30%;
+			background-repeat:no-repeat;
+			box-shadow: 7px 7px 10px #888888;
+			transformation:width height;
+			
+			}
+	.music {
+			height:20%;
+			width:7%;
+			position:absolute;
+			top:65%;
+			background-repeat:no-repeat;
+			box-shadow: 7px 7px 7px #888888;
+			 
+			}
+	.books {
+			height:20%;
+			width:7%;
+			position:absolute;
+			top:100%;
+			background-repeat:no-repeat;
+			box-shadow: 7px 7px 5px #888888;
+			
+			}
+	
+	#m1 {
+			background-image:url("breathe.jpeg");
+			
+			left:5%;
+			}
+	#m2 {
+			background-image:url("storks.jpeg");
+			
+			left:14%;
+			}
+	#m3 {
+			background-image:url("seven.jpeg");
+			
+			left:23%;
+			}
+	#m4 {
+			background-image:url("sully.jpeg");
+			
+			left:31%;
+			}
+			
+	#m5 {
+			background-image:url("strangler.jpeg");
+			
+			left:40%;
+			}
+	#m6 {
+			background-image:url("dhoni.jpeg");
+			
+			left:49%;
+			}
+	#m7 {
+			background-image:url("pink.jpeg");
+			
+			left:58%;
+			}
+	#m8 {
+			background-image:url("tutak.jpeg");
+			
+			left:67%;
+			}
+	#m9 {
+			background-image:url("parched.jpeg");
+			
+			left:76%;
+			}
+	#m10 {
+			background-image:url("mirziya.jpeg");
+			
+			left:85%;
+			}
+			
+	#d1 {
+			background-image:url("adele.jpeg");
+			
+			left:5%;
+			}
+	#d2 {
+			background-image:url("coldplay.jpeg");
+			
+			left:14%;
+			}
+	#d3 {
+			background-image:url("blackstar.png");
+			
+			left:23%;
+			}
+	#d4 {
+			background-image:url("bieber.jpeg");
+			
+			left:31%;
+			}
+			
+	#d5 {
+			background-image:url("bowie.jpeg");
+			
+			left:40%;
+			}
+	#d6 {
+			background-image:url("jess.jpeg");
+			
+			left:49%;
+			}
+	#d7 {
+			background-image:url("lemonade.jpeg");
+			
+			left:58%;
+			}
+	#d8 {
+			background-image:url("little.jpeg");
+			
+			left:67%;
+			}
+	#d9 {
+			background-image:url("sia.jpeg");
+			
+			left:76%;
+			}
+	#d10 {
+			background-image:url("x.jpeg");
+			
+			left:85%;
+			}
+	#b1 {
+			background-image:url("casket.png");
+			
+			left:5%;
+			}
+	#b2 {
+			background-image:url("doors.jpeg");
+			
+			left:14%;
+			}
+	#b3 {
+			background-image:url("sleepless.jpeg");
+			
+			left:23%;
+			}
+	#b4 {
+			background-image:url("one-indian-girl.jpeg");
+			
+			left:31%;
+			}
+			
+	#b5 {
+			background-image:url("everyone.jpeg");
+			z-index:3;
+			left:40%;
+			}
+	#b6 {
+			background-image:url("cometh.jpeg");
+			
+			left:49%;
+			}
+	#b7 {
+			background-image:url("pharaoh.jpeg");
+			
+			left:58%;
+			}
+	#b8 {
+			background-image:url("this.jpeg");
+			
+			left:67%;
+			}
+	#b9 {
+			background-image:url("secret.jpeg");
+			
+			left:76%;
+			}
+	#b10 {
+			background-image:url("origin.jpg");
+			
+			left:85%;
+			}
+			
+			
+			
+	.type {
+			color:gray;
+			font-family:AR BONNIE;
+			font-size:80px;
+			left:45%;
+			z-index:2;
+			position:absolute;
+			letter-spacing:5px;}
+	
+	#movie {
+			left:45%;
+			top:17%;
+			background-color:transparent;
+			}
+	#mus {
+			
+			top:53%;
+			left:47%;
+			background-color:transparent;
+			}
+		
+	#book {
+			position:absolute;
+			background-color:transparent;
+			
+			top:88%;
+			left:43%;}
+			
+	.tooltip .tooltiptext {
+    visibility: hidden;
+    width:400px;
+    background-color: blue;
+    color:green;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+	top: 10px;
+    left: 175%; 
+    margin-left: -60px;
+    position: absolute;
+    z-index:1;
+	font-family:Century Gothic;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+	 z-index:1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; 
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent gray transparent transparent;
+}
+
+.bg {
+	
+	background-color:#d9c0cb;
+	width:80%;
+	}
+	
+#a {
+	
+	position:absolute;
+	top:15%;
+	
+	background-color:transparent;
+	
+	}
+
+#b {
+	
+	position:absolute;
+	top:20%;
+	background-color:transparent;
+	}
+#c {
+	
+	position:absolute;
+	top:25%;
+	background-color:transparent;
+	}
+#d {
+	
+	position:absolute;
+	top:30%;
+	background-color:transparent;
+	}
+#f {
+	
+	position:absolute;
+	top:35%;
+	background-color:transparent;
+	}
+#g {
+	
+	position:absolute;
+	top:40%;
+	background-color:transparent;
+	}
+#h {
+	
+	position:absolute;
+	top:45%;
+	background-color:transparent;
+	}
+#i {
+	
+	position:absolute;
+	top:50%;
+	background-color:transparent;
+	}
+#j {
+	
+	position:absolute;
+	top:55%;
+	background-color:transparent;
+	}
+#k {
+	
+	position:absolute;
+	top:60%;
+	background-color:transparent;
+	}
+#l {
+	
+	position:absolute;
+	top:65%;
+	background-color:transparent;
+	}
+#m {
+	
+	position:absolute;
+	top:70%;
+	background-color:transparent;
+	}
+#n {
+	
+	position:absolute;
+	top:75%;
+	background-color:transparent;
+	}
+#o {
+	
+	position:absolute;
+	top:80%;
+	background-color:transparent;
+	}
+#p{
+	
+	position:absolute;
+	top:85%;
+	background-color:transparent;
+	}
+#q {
+	
+	position:absolute;
+	top:90%;
+	background-color:transparent;
+	}
+#r {
+	
+	position:absolute;
+	top:95%;
+	background-color:transparent;
+	}
+#s {
+	
+	position:absolute;
+	top:100%;
+	background-color:transparent;
+	}
+#t {
+	
+	position:absolute;
+	top:105%;
+	background-color:transparent;
+	}
+#u {
+	
+	position:absolute;
+	top:110%;
+	background-color:transparent;
+	}
+#v {
+	
+	position:absolute;
+	top:115%;
+	background-color:transparent;
+	}
+hr {
+	position:absolute;
+	top:125%;}
+		
+		

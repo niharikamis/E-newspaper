@@ -1,0 +1,37 @@
+
+		.tab {
+				border-top: 2px black solid;
+				
+				background-color:#333333;
+				position:absolute;
+				top:5%;
+				width:11.25%;
+				font-size:40px;
+				color:white;
+				text-align:center;
+				vertical-align: center;
+				height:40px;
+				font-family:AR BONNIE;
+				}
+		.tab:hover {
+					border-top: 2px #333333 solid;
+					background-color:white;
+					color:#333333;}
+					
+		#a1 {
+				left:5%;}
+		
+		#a2 {
+				left:16.25%}
+		#a3 {
+				left:27.5%;}
+		#a4 {
+				left:38.75%;}
+		#a5 {
+				left:50%;}
+		#a6 {
+				left:61.25%;}
+		#a7 {
+				left:72.5%;}
+		#a8 {
+				left:83.75%;}

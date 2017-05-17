@@ -1,0 +1,508 @@
+
+div.color {
+			background-color:gray;
+			opacity:0.9;
+			height:100px;
+			width:170px;
+			position:fixed;
+			border:2px black;
+			margin-bottom:30px;
+			font-size:35px;
+			color:white;
+			padding:20px;
+			font-family:Solid Edge Stencil;
+			}
+			
+#a1 {
+	 top:20%; 
+	 left:0px;
+	  transition-timing function:ease-in;
+	   transition:width 2s;
+	 }
+	 #a1:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+	 
+	
+#a2 {
+	 top:35%; 
+	 left:0px;
+	  transition-timing function:ease-in;
+	   transition:width 2s;}
+	   #a2:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+	 
+#a3 {
+	top:50%;
+	left:0px;
+	 transition-timing function:ease-in;
+	  transition:width 2s;}
+	  #a3:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+	
+#a4 {
+	 top:65%;
+	 left:0px;
+	  transition-timing function:ease-in;
+	   transition:width 2s;}
+	   #a4:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+	 
+#a5 {
+	top:80%;
+	left:0px;
+	 transition-timing function:ease-in;
+	  transition:width 2s;}
+	  #a5:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+	
+#b1 {
+	 top:20%;
+	 right:0px;
+ transition-timing function:ease-in;
+ transition:width 2s; }
+ #b1:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:45px;
+				}
+	 
+#b2 {
+	top:35%;
+	right:0px;
+	 transition-timing function:ease-in;
+	  transition:width 2s;}
+	  #b2:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+
+#b3 {
+	 top:50%;
+		right:0px;
+		 transition-timing function:ease-in;
+		  transition:width 2s;}
+		  #b3:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+	 
+#b4 {
+	top:65%;
+	right:0px;
+	 transition-timing function:ease-in;
+	  transition:width 2s;}
+	  #b4:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+	
+#b5 {
+	 top:80%;
+		right:0px;
+		 transition-timing function:ease-in;
+		  transition:width 2s;}
+		  #b5:hover{width: 250px;
+	            background-color:#4b564c;
+				font-size:40px;
+				}
+		
+		
+		
+#c1 {
+	position:absolute;
+	background-color:maroon;
+	font-size:100px;
+	top:10%;
+	left:37%;
+	height:250;
+	opacity:0.9;
+	width:500;
+	font-family:;
+	color:white;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+	}
+	
+#c2 {
+	position:absolute;
+	top:20%;
+	left:15.4%;
+	height:325px;
+	
+	width:400px;
+	background-color:teal;
+	background:url("obama.jpg");
+	background-size:400px 350px;
+	background-repeat:no-repeat;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+	
+	}
+	#c2:hover{
+	            
+				}
+
+#c6 {
+	position:absolute;
+	height:100px;
+	width:150px;
+	top:24%;
+	left:16%;
+	
+	font-size:25px;
+	color:white;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+	}
+	#c6:hover{
+				}
+	
+#c3 {
+	position:absolute;
+	top:20%;
+	left:63.8%;
+	height:200px;
+	width:355px;
+	opacity:0.95;
+	background-color:#1e562a;
+	font-size:23px;
+	color:white;
+	padding:10px;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+	}
+	#c3:hover{
+	            
+				}
+
+#c4 {
+	position:absolute;
+	top:44.2%;
+	left:69%;
+	height:363px;
+	width:262px;
+	opacity:0.89;
+	background-color:#323d33;
+	padding:7px;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+	}
+	#c4:hover{
+	            
+				}
+	
+#c14 {
+		font-size:32.5px;
+		color:white;
+		position:absolute;
+		top:44%;
+		left:70%;
+		height:315px;
+		width:250px;
+		transition-timing function:ease-in;
+	   transition:width 2s;
+}
+	#c14:hover{
+	            
+				}
+
+
+#c5 {
+	position:absolute;
+	top:85.3%;
+	left:60.4%;
+	height:300px;
+	width:450px;
+	background:url("juno.jpg");
+	background-size:450px 300px;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+	}
+#c5:hover{
+	            
+				}
+
+	
+#c8 {
+	position:absolute;
+	background-image:url("abc.jpg");
+	background-size:275px 200px;
+	background-repeat:no-repeat;
+	left:45.5%;
+	top:85.7%;
+	height:400px;
+	width:600px;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c8:hover{
+	            
+				}
+
+#c9 {
+	background-image:url("rahul.jpg");
+	position:absolute;
+	height:300px;
+	width:600px;
+	
+	left:700px;
+	top:52.7%;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c9:hover{
+	            
+				}
+
+#c10 {
+		position:absolute;
+		height:120;
+		width:350;
+		font-size:31px;
+		color:white;
+		opacity:0.8;
+		padding:5px;
+		padding-left:12px;
+		background-color:#15315c;
+		left:37%;
+		top:37.5%;
+		transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c10:hover{
+	            
+				}
+	  
+#c11 {
+		position:absolute;
+		color:white;
+		font-size:26px;
+		width:200px;
+		height:150px;
+		top:58%;
+		left:730px;
+		transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c11:hover{
+	            
+				}
+
+#c12 {
+		position:absolute;
+		font-size:18px;
+		color:white;
+		width:400px;
+		height:30px;
+		top:110%;
+		left:62%;
+		transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c12:hover{
+	            
+				}
+
+#c13 {
+		position:absolute;
+		font-size:40px;
+		
+		color:black;
+		width:395px;
+		height:276px;
+		opacity:0.8;
+		top:55.5%;
+		left:15.6%;
+		background:url("spin640.gif");
+		background-size:395px 276px;
+		background-repeat:no-repeat;
+		
+		
+		padding:6px;
+		transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c13:hover{
+	            
+				}
+
+#c15 {
+		position:absolute;
+		font-size:30px;
+		color:white;
+		width:526px;
+		height:150px;
+		top:87%;
+		left:16.8%;
+		padding:7.5px;
+		transition-timing function:ease-in;
+	   transition:width 2s;
+		
+}
+
+#c15:hover{
+	            
+				}
+
+#c16 {
+	position:absolute;
+		padding:10px;
+		width:534px;
+		height:270px;
+		top:86%;
+		left:16%;
+		background-color:#381938;
+		opacity:0.85;
+		transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c16:hover{
+	            
+				}
+
+#c17 {
+		position:absolute;
+		
+		width:67%;
+		height:300px;
+		opacity:0.85;
+		background-color:#04869d;
+		top:118%;
+		left:16%;
+		bottom:30px;
+		padding-left:10px;
+		padding-right:10px;
+transition-timing function:ease-in;
+	   transition:width 2s;
+		}
+
+#c17:hover{
+	            
+				}
+		
+#c18 {
+		position:absolute;
+		padding:5px;
+		width:65%;
+		top:118%;
+		color:white;
+		left:18%;
+		font-size:36px;
+		
+		transition-timing function:ease-in;
+	   transition:width 2s;
+}
+
+#c18:hover{
+			
+	            
+				}
+
+marquee {
+			color:white;
+			font-size:50px;
+}
+
+img.size {
+		height:100px;
+		width:100px;
+}
+
+#i2 {
+		width:140px;
+		height:140px;
+		position:absolute;
+		top:37%;
+		left:56%;
+}
+
+#c19 {
+	color:white;
+	background-color:#ffa500;
+	opacity:0.9;
+	width:273px;
+	height:89px;
+	position:absolute;
+	top:107.5%;
+	left:45.5%;
+	font-size:25px;
+	padding:3px;
+	transition-timing function:ease-in;
+	   transition:width 2s;
+	}
+#c19:hover{
+	            
+				}
+				
+#d1 {
+	position:absolute;
+	color:maroon;
+	top:20px;
+	right:15%;
+	font-size:30px;
+	font-weight:bold;
+	
+	
+}
+#d1:hover{border: 1px solid maroon;
+	            
+				}
+				
+#d2 {
+	position:absolute;
+	color:maroon;
+	top:20px;
+	right:2.8%;
+	font-size:30px;
+	font-weight:bold;
+	
+	
+}
+#d2:hover{border: 1px solid maroon
+	            
+				}
+#d3 {
+	position:absolute;
+	color:maroon;
+	top:20px;
+	right:9.5%;
+	font-size:30px;
+	font-weight:bold;
+	
+	
+	
+}
+#d3:hover{border: 1px solid maroon;
+	            
+				}
+
+
+
+
+body {
+		background-image:url("background.jpg");
+		background-repeat:none;
+		background-size:100% 100%;
+		
+		
+}
+
+
+
+	 
